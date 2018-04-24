@@ -40,8 +40,8 @@ class Szczegoly extends Component {
 constructor(props) {
   super(props);
   this.state = {
-    kupa: 'https://papryka.pro/stemit',
-    wersja: '0.2.1',
+    kupa: 'https://papryka.pro/stem',
+    wersja: '0.2.2',
     active: 3001,
     tryb: this.props.tryb,
     eee: null,
@@ -104,6 +104,7 @@ render() {
         <p>Wybierz grę lub program na menu z lewej strony aby dowiedzieć się o niej więcej</p>
         <p>Jeżeli chcesz, aby twoja gra także się tu znalazła, napisz do mnie (Pizza)</p>
         <p>Stem <b>wymaga</b> dostępu do internetu. Bez niego program może nie działać poprawnie!</p>
+        <p>Połączenie z internetem jest wymagane, aby pobrać informacje z serwera</p>
         <div className="mode" 
         style={{display: 'inline-block', backgroundColor: '#202225'}} 
         onClick={() => this.nowyKolor(0)}>
